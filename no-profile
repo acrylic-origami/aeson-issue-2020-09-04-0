@@ -1,0 +1,30 @@
+$ /usr/bin/time -l stack build
+x-0.1.0.0: unregistering (local file changes: app/Main.hs)
+x> configure (lib + exe)
+Configuring x-0.1.0.0...
+x> build (lib + exe)
+Preprocessing library for x-0.1.0.0..
+Building library for x-0.1.0.0..
+Preprocessing executable 'x-exe' for x-0.1.0.0..
+Building executable 'x-exe' for x-0.1.0.0..
+[2 of 2] Compiling Main
+Linking .stack-work/dist/x86_64-osx/Cabal-3.0.1.0/build/x-exe/x-exe ...
+x> copy/register
+Installing library in /Users/me/sandbox/2020-09-04-0/x/.stack-work/install/x86_64-osx/733b47b8a34a6a42bae68ec41a26c7df1d7ca514b8faf24c4cf3aa35a2ec5c4f/8.8.4/lib/x86_64-osx-ghc-8.8.4/x-0.1.0.0-CyccblKmFzwG0JErV7GkxV
+Installing executable x-exe in /Users/me/sandbox/2020-09-04-0/x/.stack-work/install/x86_64-osx/733b47b8a34a6a42bae68ec41a26c7df1d7ca514b8faf24c4cf3aa35a2ec5c4f/8.8.4/bin
+Registering library for x-0.1.0.0..
+        8.56 real         6.74 user         1.38 sys
+ 288366592  maximum resident set size
+         0  average shared memory size
+         0  average unshared data size
+         0  average unshared stack size
+    413612  page reclaims
+       341  page faults
+         0  swaps
+         0  block input operations
+         0  block output operations
+         0  messages sent
+         0  messages received
+         0  signals received
+        76  voluntary context switches
+     12276  involuntary context switches
